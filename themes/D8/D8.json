@@ -1,0 +1,147 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "order" : [
+      "day",
+      "body"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "day" : {
+        "borderColor" : "rgba(255, 255, 255, 1.0)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "FB~70",
+          "x" : "45",
+          "width" : "screen_width",
+          "height" : "320"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "textColor" : "rgba(112, 112, 112, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[shortday]",
+        "borderWidth" : "0",
+        "fontSize" : "160",
+        "fontName" : "MarkerFelt-Thin",
+        "textShadow" : {
+          "y" : "1",
+          "radius" : "0",
+          "x" : "1",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        }
+      },
+      "body" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "570",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "280"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "borderWidth" : "0",
+        "children" : {
+          "month" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "FB~70",
+              "x" : "60",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[month] [paddeddate]",
+            "borderWidth" : "0",
+            "fontSize" : "20",
+            "fontName" : "AvenirNextCondensed-Medium",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "0",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 0.5)"
+            }
+          },
+          "time_label" : {
+            "borderColor" : "rgba(255,255,255,1.0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "25",
+              "x" : "60",
+              "width" : "300",
+              "height" : "80"
+            },
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "kerning" : "0",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]:[minute]",
+            "borderWidth" : 0,
+            "fontSize" : "20",
+            "fontName" : "AvenirNextCondensed-Medium",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "0",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 0.5)"
+            },
+            "cornerRadius" : 0
+          },
+          "condition_1" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "60",
+              "x" : "60",
+              "width" : "320",
+              "height" : "130"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(244, 219, 179, 0.0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "6",
+            "data" : "The weather outside is [condition] with a temperature of [temperature][degreeSymbol][temptype], it feels like [feelslike][degreeSymbol][temptype]. The chance of rain is [precip]% with a humidity level of [humidity]%. The wind blows at [windspeed][windunit] from [winddirection]. Your battery level is [batterypercent]% now [charging].",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "AvenirNextCondensed-Medium",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "0",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 0.5)"
+            }
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}

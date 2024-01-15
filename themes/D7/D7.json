@@ -1,0 +1,103 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "order" : [
+      "time",
+      "weather",
+      "icon",
+      "time_of_day"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "time" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "90",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "150"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(225, 197, 218, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[paddedhour].[minute]",
+        "fontSize" : "100",
+        "fontName" : "AvenirNextCondensed-DemiBold",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "1",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "266",
+          "x" : "center",
+          "width" : "100",
+          "height" : "100"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "clima"
+      },
+      "time_of_day" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "155",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "80"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Good [timeofday] dear!",
+        "fontSize" : "35",
+        "fontName" : "FleurDeLeah-Regular.ttf",
+        "textShadow" : {
+          "y" : "1",
+          "color" : "rgba(0,0,0,0.7)",
+          "x" : "1",
+          "radius" : "1"
+        }
+      },
+      "weather" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "200",
+          "x" : "center",
+          "width" : "180",
+          "height" : "100"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "3",
+        "data" : "[condition] & [temperature] deg feels like [feelslike] chance of rain [precip] % & wind  [windspeed] kmp [winddirection]",
+        "fontSize" : "13",
+        "fontName" : "AvenirNext-Regular",
+        "textShadow" : {
+          "y" : "1",
+          "radius" : "1",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      }
+    }
+  }
+}

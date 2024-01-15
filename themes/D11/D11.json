@@ -1,0 +1,152 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "order" : [
+      "icon",
+      "time",
+      "day",
+      "date",
+      "cond"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "cond" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "FB~190",
+          "x" : "75",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[condition] [temperature][temptype]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "20",
+        "fontName" : "DINAlternate-Bold",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "FB~110",
+          "x" : "0",
+          "width" : "230",
+          "height" : "230"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "gradient"
+      },
+      "day" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "FB~220",
+          "x" : "75",
+          "width" : "screen_width",
+          "height" : "100"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(237, 130, 52, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[day]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "35",
+        "fontName" : "Verdana-Bold",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "time" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "FB~170",
+          "x" : "75",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[textTime]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "20",
+        "fontName" : "DINAlternate-Bold",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "date" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "FB~210",
+          "x" : "75",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[shortmonth] [dateordinal]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "20",
+        "fontName" : "DINAlternate-Bold",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      }
+    }
+  }
+}

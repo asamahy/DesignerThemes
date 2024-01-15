@@ -1,0 +1,72 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "order" : [
+      "high",
+      "cond"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "high" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "FB~80",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "100"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(204, 184, 112, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "High:[high][degreeSymbol]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "77",
+        "fontName" : "AvenirNext-Heavy",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "0",
+          "radius" : "3"
+        }
+      },
+      "cond" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "FB~95",
+          "x" : "center",
+          "width" : "330",
+          "height" : "70"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "6",
+        "data" : "Your weather currently [devicename] is [condition] with a temp of [temperature][temptype]. The wind blows at [windspeed][windunit] [winddirection]. The high today is forecast as [high][temptype] and the low as [low][temptype]. The sunrise was at [sunrise], the sunset will be at [sunset]. Have a wonderful day!",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "11",
+        "fontName" : "PingFangTC-Medium",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "0",
+          "radius" : "1"
+        }
+      }
+    }
+  }
+}

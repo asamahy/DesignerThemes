@@ -1,0 +1,157 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "order" : [
+      "coffee",
+      "condition",
+      "date",
+      "icon",
+      "name",
+      "ios"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "coffee" : {
+        "pauseImage" : "none",
+        "frame" : {
+          "y" : "0",
+          "x" : "0",
+          "width" : "screen_width",
+          "height" : "screen_height"
+        },
+        "isAlbumArt" : "0",
+        "contentMode" : "scaleToFill",
+        "animation" : "none",
+        "cornerRadius" : "0",
+        "imageURL" : "coffeediary.png",
+        "type" : "UIImageView",
+        "actions" : "none"
+      },
+      "condition" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "FB~206",
+          "x" : "center",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "1",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(146, 114, 85, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[condition] [temperature][temptype]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "35",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "-0.5",
+          "color" : "rgba(255, 255, 255, 1.00)",
+          "x" : "0",
+          "radius" : "0"
+        }
+      },
+      "ios" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "7",
+          "x" : "10",
+          "width" : "85",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(146, 114, 85, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[devicefirmware]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "20",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "-0.5",
+          "color" : "rgba(255, 255, 255, 1.00)",
+          "x" : "0",
+          "radius" : "0"
+        }
+      },
+      "date" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "FB~262",
+          "x" : "center",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "1",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(146, 114, 85, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[shortday] [shortmonth] [date] • [paddedtime]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "35",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "-0.5",
+          "color" : "rgba(255, 255, 255, 1.00)",
+          "x" : "0",
+          "radius" : "0"
+        }
+      },
+      "name" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "7",
+          "x" : "FR~10",
+          "width" : "85",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "textColor" : "rgba(146, 114, 85, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[devicename]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "20",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "-0.5",
+          "color" : "rgba(255, 255, 255, 1.00)",
+          "x" : "0",
+          "radius" : "0"
+        }
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "FB~121",
+          "x" : "center",
+          "width" : "70",
+          "height" : "100"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "Gold"
+      }
+    }
+  }
+}

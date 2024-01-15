@@ -1,0 +1,218 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "children" : {
+      "two" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "FB~30",
+          "x" : "0",
+          "width" : "350",
+          "height" : "110"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "borderWidth" : "0",
+        "children" : {
+          "condition" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "10",
+              "x" : "110",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "1",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[condition]",
+            "fontSize" : "15",
+            "fontName" : "Avenir-Roman",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0.7)"
+            }
+          },
+          "icon" : {
+            "frame" : {
+              "y" : "0",
+              "x" : "20",
+              "width" : "100",
+              "height" : "100"
+            },
+            "forecast" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "climacut"
+          },
+          "rain" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "50",
+              "x" : "110",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "1",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "wind [windspeed] [windunit] [winddirection]",
+            "fontSize" : "15",
+            "fontName" : "Avenir-Roman",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0.7)"
+            }
+          },
+          "temp" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "30",
+              "x" : "110",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "1",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[temperature] degrees",
+            "fontSize" : "15",
+            "fontName" : "Avenir-Roman",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0.7)"
+            }
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      },
+      "One" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "55",
+          "x" : "FR~0",
+          "width" : "200",
+          "height" : "110"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "borderWidth" : "0",
+        "children" : {
+          "day" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "20",
+              "x" : "0",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "today [day]",
+            "fontSize" : "15",
+            "fontName" : "Avenir-Roman",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0.7)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "time_label" : {
+            "fontSize" : "15",
+            "textAlignment" : "NSTextAlignmentRight",
+            "numberOfLines" : "1",
+            "data" : "It’s [paddedhour]•[minute]",
+            "frame" : {
+              "y" : "0",
+              "x" : "50",
+              "width" : "100",
+              "height" : "40"
+            },
+            "textShadow" : {
+              "y" : 3,
+              "radius" : 3,
+              "x" : 0,
+              "color" : "rgba(0, 0, 0, 0.7)"
+            },
+            "fontName" : "Avenir-Roman",
+            "kerning" : "1",
+            "type" : "UILabel",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "backgroundColor" : "rgba(255,255,255,0)"
+          },
+          "month_date_" : {
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "40",
+              "x" : "0",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[month] [dateordinal]",
+            "fontSize" : "15",
+            "fontName" : "Avenir-Roman",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0.7)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}

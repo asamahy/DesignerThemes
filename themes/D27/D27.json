@@ -1,0 +1,88 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "order" : [
+      "cond"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "cond" : {
+        "rotate" : "0",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "FB~50",
+          "x" : "0",
+          "width" : "screen_width",
+          "height" : "220"
+        },
+        "children" : {
+          "date" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "45",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "45"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(231, 172, 138, 0.0)",
+            "textColor" : "rgba(251, 230, 212, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[day] [month] [dateordinal]",
+            "borderWidth" : "0",
+            "fontSize" : "25",
+            "fontName" : "PingFangTC-Semibold",
+            "textShadow" : {
+              "y" : "1",
+              "color" : "rgba(0, 0, 0, 0.5)",
+              "x" : "1",
+              "radius" : "0"
+            }
+          },
+          "condition_1" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "60",
+              "x" : "center",
+              "width" : "300",
+              "height" : "150"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(244, 219, 179, 0.0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "6",
+            "data" : "The weather outside is [condition] with a temperature of [temperature][degreeSymbol][temptype], it feels like [feelslike][degreeSymbol][temptype]. The chance of rain is [precip]% with a humidity level of [humidity]%. The wind blows at [windspeed][windunit] from [winddirection]. Your battery level is [batterypercent]% now [charging].",
+            "borderWidth" : "0",
+            "fontSize" : "12",
+            "fontName" : "PingFangTC-Light",
+            "textShadow" : {
+              "y" : "1",
+              "color" : "rgba(0, 0, 0, 0.5)",
+              "x" : "1",
+              "radius" : "0"
+            }
+          }
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "5",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(234, 185, 103, 0.0)",
+        "scale" : "0"
+      }
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "order" : [
+      "month",
+      "day",
+      "time",
+      "cond",
+      "icon",
+      "battery"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "time" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "FB~115",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[textTime]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "17",
+        "fontName" : "AppleSDGothicNeo-Medium",
+        "textShadow" : {
+          "y" : "1",
+          "radius" : "2",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        }
+      },
+      "day" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "FB~85",
+          "x" : "25",
+          "width" : "screen_width",
+          "height" : "60"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[day]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "17",
+        "fontName" : "AppleSDGothicNeo-Medium",
+        "textShadow" : {
+          "y" : "1",
+          "radius" : "0",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 0.50)"
+        }
+      },
+      "month" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentRight",
+        "frame" : {
+          "y" : "FB~85",
+          "x" : "FR~25",
+          "width" : "150",
+          "height" : "60"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[shortmonth] [date]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "17",
+        "fontName" : "AppleSDGothicNeo-Medium",
+        "textShadow" : {
+          "y" : "1",
+          "radius" : "5",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        }
+      },
+      "battery" : {
+        "radius" : "1",
+        "lowColor" : "rgba(209, 222, 247, 1.00)",
+        "backColor" : "rgba(30, 28, 29, 1.00)",
+        "frame" : {
+          "y" : "FB~35",
+          "x" : "center",
+          "width" : "160",
+          "height" : "2"
+        },
+        "type" : "BatteryBar",
+        "midColor" : "rgba(179, 165, 163, 1.00)",
+        "innerColor" : "rgba(246, 215, 88, 1.00)"
+      },
+      "cond" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "FB~85",
+          "x" : "center",
+          "width" : "150",
+          "height" : "60"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[condition] [temperature][temptype]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "17",
+        "fontName" : "AppleSDGothicNeo-Medium",
+        "textShadow" : {
+          "y" : "1",
+          "radius" : "2",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        }
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "FB~50",
+          "x" : "center",
+          "width" : "55",
+          "height" : "55"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "Vecy"
+      }
+    }
+  }
+}

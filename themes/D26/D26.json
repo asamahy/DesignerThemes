@@ -1,0 +1,146 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "order" : [
+      "body"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "body" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "130",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "600"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "borderWidth" : "0",
+        "children" : {
+          "time_of_day" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "115",
+              "x" : "center",
+              "width" : "350",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(90, 103, 98, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Have a great [timeofday]!",
+            "borderWidth" : "0",
+            "fontSize" : "25",
+            "fontName" : "autograf.otf",
+            "textShadow" : {
+              "y" : "1",
+              "color" : "rgba(0, 0, 0, 0.6)",
+              "x" : "1",
+              "radius" : "1"
+            }
+          },
+          "condition" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "80",
+              "x" : "center",
+              "width" : "350",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(0, 0, 0, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[condition] today with [temperature] [temptype]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "AvenirNext-Regular",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "1",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            }
+          },
+          "time" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "30",
+              "x" : "center",
+              "width" : "350",
+              "height" : "80"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(145, 135, 95, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[textTime]",
+            "borderWidth" : "0",
+            "fontSize" : "40",
+            "fontName" : "AvenirNextCondensed-Bold",
+            "textShadow" : {
+              "y" : "2",
+              "color" : "rgba(0, 0, 0, 0.7)",
+              "x" : "2",
+              "radius" : "2"
+            }
+          },
+          "humidity_wind" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "95",
+              "x" : "center",
+              "width" : "350",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(0, 0, 0, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[humidity] % of humidity and [windspeed] [windunit] wind",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "AvenirNext-Regular",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "1",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            }
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}

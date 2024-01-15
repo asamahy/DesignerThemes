@@ -1,0 +1,281 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "order" : [
+      "box",
+      "month",
+      "temp",
+      "day",
+      "condition",
+      "year",
+      "wind",
+      "time",
+      "sunrise",
+      "sunset"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "condition" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "440",
+          "x" : "0",
+          "width" : "130",
+          "height" : "50"
+        },
+        "kerning" : "1",
+        "backgroundColor" : "rgba(102, 39, 61, 0.0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "2",
+        "data" : "[condition]",
+        "fontSize" : "15",
+        "fontName" : "Papyrus-Condensed",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "temp" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "535",
+          "x" : "0",
+          "width" : "140",
+          "height" : "40"
+        },
+        "kerning" : "1",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "temp of [temperature] [temptype]",
+        "fontSize" : "15",
+        "fontName" : "Papyrus-Condensed",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "time" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "515",
+          "x" : "0",
+          "width" : "140",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "It’s [paddedhour]:[minute]",
+        "borderWidth" : "0",
+        "fontSize" : "15",
+        "fontName" : "Papyrus-Condensed",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.0)"
+        }
+      },
+      "sunrise" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "275",
+          "x" : "0",
+          "width" : "140",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Sunrise [sunrise]",
+        "borderWidth" : "0",
+        "fontSize" : "15",
+        "fontName" : "Papyrus-Condensed",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "sunset" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "610",
+          "x" : "0",
+          "width" : "140",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Sunset [sunset]",
+        "borderWidth" : "0",
+        "fontSize" : "15",
+        "fontName" : "Papyrus-Condensed",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "wind" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "555",
+          "x" : "0",
+          "width" : "140",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[windspeed][windunit] wind",
+        "borderWidth" : "0",
+        "fontSize" : "15",
+        "fontName" : "Papyrus-Condensed",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "day" : {
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "330",
+          "x" : "0",
+          "width" : "140",
+          "height" : "40"
+        },
+        "kerning" : "1",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[day]",
+        "fontSize" : "15",
+        "fontName" : "Papyrus-Condensed",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "box" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "0",
+          "x" : "0",
+          "width" : "150",
+          "height" : "screen_height"
+        },
+        "backgroundColor" : "rgba(135, 149, 142, 1.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "8",
+          "x" : "3",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        },
+        "cornerRadius" : "0",
+        "blurColor" : "dark"
+      },
+      "year" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "370",
+          "x" : "0",
+          "width" : "140",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[year]",
+        "borderWidth" : "0",
+        "fontSize" : "15",
+        "fontName" : "Papyrus-Condensed",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0.7)"
+        }
+      },
+      "month" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "350",
+          "x" : "0",
+          "width" : "140",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[month] [dateordinal]",
+        "borderWidth" : "0",
+        "fontSize" : "15",
+        "fontName" : "Papyrus-Condensed",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.0)"
+        }
+      }
+    }
+  }
+}

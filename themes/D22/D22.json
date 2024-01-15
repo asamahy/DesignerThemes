@@ -1,0 +1,140 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "order" : [
+      "minutes",
+      "month",
+      "day",
+      "time",
+      "icon"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "time" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "180",
+          "x" : "center",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[textHour]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "35",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "0",
+          "radius" : "2"
+        }
+      },
+      "day" : {
+        "borderColor" : "rgba(0, 0, 0, 1.00)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "100",
+          "x" : "center",
+          "width" : "300",
+          "height" : "80"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[day] [timeofday] [dateordinal]",
+        "borderWidth" : "1",
+        "gradientImage" : "none",
+        "fontSize" : "50",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "0",
+          "radius" : "2"
+        }
+      },
+      "month" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "180",
+          "x" : "65",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[month] ",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "35",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "0",
+          "radius" : "2"
+        }
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "50",
+          "x" : "center",
+          "width" : "65",
+          "height" : "65"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "Plano"
+      },
+      "minutes" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentRight",
+        "frame" : {
+          "y" : "180",
+          "x" : "FR~65",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[textMinute]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "35",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "0",
+          "radius" : "2"
+        }
+      }
+    }
+  }
+}
